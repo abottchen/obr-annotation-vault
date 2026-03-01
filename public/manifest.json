@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "manifest_version": 1,
   "author": "adam",
-  "icon": "./icon.svg",
+  "icon": "https://abottchen.github.io/obr-annotation-vault/icon.svg",
   "action": {
     "title": "Annotation Vault",
-    "icon": "./icon.svg",
-    "popover": "./index.html",
+    "icon": "https://abottchen.github.io/obr-annotation-vault/icon.svg",
+    "popover": "https://abottchen.github.io/obr-annotation-vault/index.html",
     "height": 400,
     "width": 350
   }
