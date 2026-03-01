@@ -9,7 +9,7 @@ Owlbear Rodeo has no version history or automatic backups. If annotations are ac
 Paste this URL into your Owlbear Rodeo room's extension settings:
 
 ```
-https://<your-username>.github.io/obr-annotation-vault/manifest.json
+https://abottchen.github.io/obr-annotation-vault/manifest.json
 ```
 
 ## Usage
