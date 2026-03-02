@@ -46,7 +46,8 @@ export async function handleExport(): Promise<void> {
     const blob = new Blob([json], { type: "application/json" });
     const url = URL.createObjectURL(blob);
 
-    const timestamp = new Date().toISOString().slice(0, 10);
+    const now = new Date();
+    const timestamp = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
     const filename = `annotations-${timestamp}.json`;
 
     const a = document.createElement("a");
