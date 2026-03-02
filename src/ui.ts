@@ -12,7 +12,7 @@ export function renderUI(container: HTMLElement): void {
 
       <div class="section">
         <button id="export-btn" class="btn btn-primary">Export Annotations</button>
-        <p class="hint">Downloads all drawings, shapes, text, and labels as a JSON file.</p>
+        <p class="hint">Downloads all drawings, shapes, text, labels, and tokens as a JSON file.</p>
       </div>
 
       <hr />
